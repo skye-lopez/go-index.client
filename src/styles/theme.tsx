@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import "@fontsource/basic";
+import "@fontsource-variable/open-sans";
 
 const theme = extendTheme({
     styles: {
@@ -11,8 +11,8 @@ const theme = extendTheme({
         }),
     },
     fonts: {
-        heading: `"Basic", sans-serif`,
-        body: `"Basic", sans-serif`,
+        heading: `'Open Sans Variable', sans-serif`,
+        body: `'Open Sans Variable', sans-serif`,
     },
 })
 
